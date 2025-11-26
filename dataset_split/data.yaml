@@ -1,0 +1,9 @@
+path: D:/falldetection/dataset_split
+train: images/train
+val: images/val
+
+nc: 2
+names: ['normal', 'fallen']
+
+# ✅ Pose Estimation 용 Keypoint 정보 추가
+kpt_shape: [17, 3]
